@@ -2,31 +2,31 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    screens:{
-      sm: '576px',
-      md: '768px',
-      lg: '992px',
-      xl: '1200px',
+    screens: {
+      sm: "576px",
+      md: "768px",
+      lg: "992px",
+      xl: "1200px",
     },
-    container:{
+    container: {
       center: true,
-      padding: '1rem'
+      padding: "1rem",
     },
     extend: {
-      fontFamily:{
+      fontFamily: {
         poppins: "'Poppins', sans-serif",
-        roboto: "'Roboto', sans-serif"
+        roboto: "'Roboto', sans-serif",
       },
-      colors:{
-        'primary' : '#FD3D57'
+      colors: {
+        primary: "#FD3D57",
       },
     },
   },
   variants: {
     extend: {
-      display: ['group-hover'],
-      visibility: ['group-hover'],
+      display: ["group-hover"],
+      visibility: ["group-hover"],
     },
   },
   plugins: [],
-}
+};
